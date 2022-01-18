@@ -1,0 +1,555 @@
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000;
+} 
+input[type=text]:focus {
+  outline: 0;
+}
+/* */
+
+/* nav */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  font-weight: 100;
+}
+
+nav ul li i {
+  font-size: 18px;
+}
+
+nav .top-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .top-header-inner {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 60px;
+
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+/* top social logo items */
+.top-header-inner-social-icons .top-header-inner-social-icon-item1 i {
+  background-color: transparent;
+  padding: 10px 14px;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(182, 176, 176, 0.644);
+}
+
+.top-header-inner-social-icons .top-header-inner-social-icon-item1 i:hover {
+  color: white;
+  background-color: rgb(27, 116, 228);
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item2 i {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(182, 176, 176, 0.644);
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item2 i:hover {
+  color: #fff;
+  background-color: rgb(93, 169, 221);
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item3 i {
+  background-color: transparent;
+  padding: 10px 12px;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(182, 176, 176, 0.644);
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item3 i:hover {
+  color: #fff;
+  background: linear-gradient(
+    21deg,
+    rgba(252, 176, 69, 1) 7%,
+    rgba(253, 29, 29, 0.8071603641456583) 42%,
+    rgba(190, 44, 108, 1) 67%,
+    rgba(131, 58, 180, 1) 99%
+  );
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item4 i {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(182, 176, 176, 0.644);
+}
+.top-header-inner-social-icons .top-header-inner-social-icon-item4 i:hover {
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+}
+
+.top-header-inner-social-icons .top-header-inner-social-icon-item5 i {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(182, 176, 176, 0.644);
+}
+
+.top-header-inner-social-icons .top-header-inner-social-icon-item5 i:hover {
+  color: #fff;
+  background-color: rgb(202, 199, 18);
+}
+
+.top-header-inner-social-icons ul li a {
+  color: black;
+}
+
+.top-header-inner-search-text {
+  border-bottom: 1px solid black;
+}
+.top-header-inner-search-text h5 {
+  font-weight: 100;
+  font-size: 18px;
+}
+.top-header-inner-search-icon i {
+  font-size: 15px;
+}
+/* top ends here */
+
+/* logo div starts here */
+.logo-texts .logo-items {
+  font-family: "Stalemate", sans-serif;
+  font-size: 4.5rem;
+}
+/* logo div ends here */
+
+/* menu div starts here */
+.menu .menu-options {
+  border-bottom: 1px solid rgba(182, 176, 176, 0.644);
+  border-top: 1px solid rgba(182, 176, 176, 0.644);
+}
+
+.menu .menu-options ul {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 1.7rem;
+}
+
+.menu .menu-options ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+.menu .menu-options ul li a p {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 2rem;
+}
+/* menu div ends here */
+
+/* hero-section starts here */
+section .banner .hero-image {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.226) 0%,
+      rgba(0, 0, 0, 0.687) 100%
+    ),
+    url(/assets/img/7.jpeg);
+  height: 50vh;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+
+  position: relative;
+  z-index: 1;
+}
+
+section .banner .hero-image .hero-text {
+  padding-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+
+  position: absolute;
+  left: 17%;
+}
+section .banner .hero-image .hero-text h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+section .banner .hero-image .hero-text h3 {
+  font-size: 32px;
+}
+/* hero-section ends here */
+
+/* article starts here */
+
+/* article ends here */
+
+/* Lower social icon starts here */
+section .lower-section-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .lower-section-social-icons ul {
+  list-style-type: none;
+  width: 69.3%;
+  border-bottom: 1px solid rgba(182, 176, 176, 0.644);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .lower-section-social-icons ul li {
+  padding: 20px;
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item1 i {
+  color: rgb(10, 128, 236);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item1
+  i:hover {
+  color: rgb(7, 96, 179);
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item2 i {
+  color: rgb(93, 169, 221);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item2
+  i:hover {
+  color: rgb(54, 138, 194);
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item3 i {
+  color: rgb(14, 118, 230);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item3
+  i:hover {
+  color: rgb(4, 94, 190);
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item4 i {
+  color: rgb(219, 2, 27);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item4
+  i:hover {
+  color: rgb(183, 8, 27);
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item5 i {
+  color: rgb(253, 34, 64);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item5
+  i:hover {
+  color: rgb(233, 6, 36);
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item6 i {
+  color: #dd4b39;
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item6
+  i:hover {
+  color: #c53826;
+}
+
+section .lower-section-social-icons ul li .lower-section-social-icon-item7 i {
+  color: rgb(20, 146, 214);
+}
+section
+  .lower-section-social-icons
+  ul
+  li
+  .lower-section-social-icon-item7
+  i:hover {
+  color: rgb(0, 119, 181);
+}
+/* Lower social icon ends here */
+
+/* #taga and views before carousel starts here*/
+/* ------------------------------------------ */
+.tags-and-views-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags-and-views {
+  width: 69.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid rgba(182, 176, 176, 0.644); */
+}
+.tags-and-views .tag-items ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tags-and-views .tag-items ul li {
+  /* float: left; */
+  padding: 0 20px 0 0;
+}
+.tags-and-views .tag-items ul li h6 {
+  font-weight: 300;
+  text-transform: d;
+}
+/* ----------------------------------- */
+.tags-and-views .views ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tags-and-views .views ul li {
+  /* float: left; */
+  padding: 0 5px 0 0;
+}
+/* #taga and views before carousel ends here*/
+
+/* footer starts here */
+
+footer section .footer-grid-container {
+  display: grid;
+  gap: 15px;
+  bottom: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+/*-------------------------------------*/
+footer section {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)),
+    url(/assets/img/footer-bg7.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 80vh;
+  padding: 0 20rem 0 15rem;
+  color: #fff;
+  text-align: center;
+}
+/*------------------------------------------*/
+/* ---------------------------------------- */
+
+footer section .footer-grid-container .s1 ul {
+  list-style-type: none;
+  padding: 4rem;
+}
+footer section .footer-grid-container .s1 .footer-left-title h3 {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  padding: 0 0 4rem 0;
+}
+footer section .footer-grid-container .s1 .footer-logo-texts .footer-logo-item {
+  font-family: "Stalemate", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 300;
+  padding-bottom: 4rem;
+}
+
+footer section .footer-grid-container .s1 li h3 {
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+
+footer section .footer-grid-container .s1 .footer-social-icon ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer section .footer-grid-container .s1 .footer-social-icon ul li {
+  /* float: left; */
+  padding: 4rem 25px;
+}
+
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-1 {
+  color: #fff;
+}
+
+footer
+  section
+  .footer-grid-container
+  .s1
+  .footer-social-icon
+  ul
+  li
+  .item-1:hover {
+  color: #1876f2;
+}
+
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-2 {
+  color: #fff;
+}
+footer
+  section
+  .footer-grid-container
+  .s1
+  .footer-social-icon
+  ul
+  li
+  .item-2:hover {
+  color: #7ac3f8;
+}
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-3 {
+  color: #fff;
+}
+footer
+  section
+  .footer-grid-container
+  .s1
+  .footer-social-icon
+  ul
+  li
+  .item-3:hover {
+  color: pink;
+}
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-4 {
+  color: #fff;
+}
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-4:hover {
+  color:red;
+}
+
+footer section .footer-grid-container .s1 .footer-social-icon ul li .item-5 {
+  color: #fff;
+}
+footer
+  section
+  .footer-grid-container
+  .s1
+  .footer-social-icon
+  ul
+  li
+  .item-5:hover {
+  color: yellow;
+}
+/* ------------------------------------------------------ */
+
+footer section .s2 ul {
+  list-style-type: none;
+}
+
+footer section .s2 ul li {
+  text-align: left;
+}
+
+footer section .s2 ul li .navigation h2 {
+  padding: 4rem 0 4rem 2rem;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+footer section .s2 .navigation-items h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  padding: 1rem 0;
+}
+
+/* -------------------------------------------------------- */
+
+footer section .s3 .popular-posts h3 {
+  text-transform: uppercase;
+  padding: 4rem 1em;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+footer section .s3 .popular-posts-items ul {
+  list-style-type: none;
+}
+footer section .s3 .popular-posts-items ul li {
+  text-align: left;
+}
+footer section .s3 .popular-posts-items .popular-posts-item h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  
+}
+footer section .s3 .popular-posts-items .popular-posts-item h5 {
+  margin-top: 0;
+  color: rgba(110, 110, 110, 0.788);
+  font-size: 0.9em;
+  padding-bottom: 2em;
+}
+footer section .footer-foot1 h3 {
+  font-weight: 100;
+  font-size: 12px;
+  font-family: 'Stelamate', sans-serif;
+  color: grey;
+}
+
+/* 
+----------------------------------------------------------- */
+
+/* footer ends here */
+
+/* carousel css  */
+.owl-nav {
+  font-size: 60px;
+  text-align: center;
+}
+ .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background-color: rgba(0, 0, 0, 0.062);
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  border-radius: 5px;
+  padding: 0 25px !important;
+  margin-top: 20px;
+  margin-right: 10px;
+  font: inherit;
+ }
+
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background-color: rgba(0, 0, 0, 0.062);
+    color: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 5px;
+    padding: 0 25px !important;
+    margin-top: 20px;
+    margin-left: 10px;
+    font: inherit;
+  }
