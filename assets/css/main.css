@@ -304,6 +304,11 @@ section
 
 /* #taga and views before carousel starts here*/
 /* ------------------------------------------ */
+
+.owl-dots {
+    display: none;
+}
+
 .tags-and-views-block {
   display: flex;
   align-items: center;
