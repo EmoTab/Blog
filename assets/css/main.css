@@ -5,8 +5,8 @@ html {
   font-weight: 400;
   line-height: 1.6;
   color: #000;
-} 
-input[type=text]:focus {
+}
+input[type="text"]:focus {
   outline: 0;
 }
 /* */
@@ -135,6 +135,7 @@ nav .top-header-inner {
 /* logo div ends here */
 
 /* menu div starts here */
+
 .menu .menu-options {
   border-bottom: 1px solid rgba(182, 176, 176, 0.644);
   border-top: 1px solid rgba(182, 176, 176, 0.644);
@@ -156,6 +157,7 @@ nav .top-header-inner {
   font-weight: 500;
   padding: 0 2rem;
 }
+
 /* menu div ends here */
 
 /* hero-section starts here */
@@ -305,9 +307,39 @@ section
 /* #taga and views before carousel starts here*/
 /* ------------------------------------------ */
 
+/* carousel css starts here  */
 .owl-dots {
-    display: none;
+  display: none;
 }
+
+.owl-nav {
+  font-size: 60px;
+  text-align: center;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background-color: rgba(0, 0, 0, 0.062);
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  border-radius: 5px;
+  padding: 0 25px !important;
+  margin-top: 20px;
+  margin-right: 10px;
+  font: inherit;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background-color: rgba(0, 0, 0, 0.062);
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  border-radius: 5px;
+  padding: 0 25px !important;
+  margin-top: 20px;
+  margin-left: 10px;
+  font: inherit;
+}
+/* carousel css starts here  */
 
 .tags-and-views-block {
   display: flex;
@@ -357,6 +389,8 @@ footer section .footer-grid-container {
   bottom: 0;
   grid-template-columns: repeat(3, 1fr);
 }
+
+
 /*-------------------------------------*/
 footer section {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)),
@@ -379,20 +413,20 @@ footer section .footer-grid-container .s1 .footer-left-title h3 {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5rem;
-  padding: 0 0 4rem 0;
+  padding: 0 0 2rem 0;
 }
 footer section .footer-grid-container .s1 .footer-logo-texts .footer-logo-item {
   font-family: "Stalemate", sans-serif;
   font-size: 4.5rem;
   font-weight: 300;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 footer section .footer-grid-container .s1 li h3 {
   font-size: 17px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: 100;
-  padding-bottom: 1rem;
 }
 
 footer section .footer-grid-container .s1 .footer-social-icon ul {
@@ -404,11 +438,12 @@ footer section .footer-grid-container .s1 .footer-social-icon ul {
 
 footer section .footer-grid-container .s1 .footer-social-icon ul li {
   /* float: left; */
-  padding: 4rem 25px;
+  padding: 2rem 1.9rem;
 }
 
 footer section .footer-grid-container .s1 .footer-social-icon ul li .item-1 {
   color: #fff;
+  transition: 0.5s ease;
 }
 
 footer
@@ -424,6 +459,7 @@ footer
 
 footer section .footer-grid-container .s1 .footer-social-icon ul li .item-2 {
   color: #fff;
+  transition: 0.5s ease;
 }
 footer
   section
@@ -437,6 +473,7 @@ footer
 }
 footer section .footer-grid-container .s1 .footer-social-icon ul li .item-3 {
   color: #fff;
+  transition: 0.5s ease;
 }
 footer
   section
@@ -450,13 +487,22 @@ footer
 }
 footer section .footer-grid-container .s1 .footer-social-icon ul li .item-4 {
   color: #fff;
+  transition: 0.5s ease;
 }
-footer section .footer-grid-container .s1 .footer-social-icon ul li .item-4:hover {
-  color:red;
+footer
+  section
+  .footer-grid-container
+  .s1
+  .footer-social-icon
+  ul
+  li
+  .item-4:hover {
+  color: red;
 }
 
 footer section .footer-grid-container .s1 .footer-social-icon ul li .item-5 {
   color: #fff;
+  transition: 0.5s ease;
 }
 footer
   section
@@ -484,13 +530,30 @@ footer section .s2 ul li .navigation h2 {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-footer section .s2 .navigation-items h3 {
+footer section .s2 .navigation-item h3 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 100;
   font-size: 1.2em;
   padding: 1rem 0;
+  transition: 0.5s ease;
 }
 
+.navigation-item h3:hover {
+  color: rgb(101, 101, 185);
+  margin-left: 5px;
+}
+
+.navigation-item-text {
+  display: flex;
+}
+
+.navigation-item-text p {
+  transition: 0.9s ease;
+}
+.navigation-item-text p:hover {
+  color: rgb(17, 17, 145);
+  padding-left: 20px;
+}
 /* -------------------------------------------------------- */
 
 footer section .s3 .popular-posts h3 {
@@ -510,20 +573,25 @@ footer section .s3 .popular-posts-items ul li {
 }
 footer section .s3 .popular-posts-items .popular-posts-item h3 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 100;
-  
+  transition: 0.5s ease;
 }
+footer section .s3 .popular-posts-items .popular-posts-item h3:hover {
+  color: rgb(17, 17, 145);
+}
+
 footer section .s3 .popular-posts-items .popular-posts-item h5 {
   margin-top: 0;
   color: rgba(110, 110, 110, 0.788);
   font-size: 0.9em;
   padding-bottom: 2em;
 }
+
 footer section .footer-foot1 h3 {
   font-weight: 100;
   font-size: 12px;
-  font-family: 'Stelamate', sans-serif;
+  font-family: "Stelamate", sans-serif;
   color: grey;
 }
 
@@ -532,29 +600,21 @@ footer section .footer-foot1 h3 {
 
 /* footer ends here */
 
-/* carousel css  */
-.owl-nav {
-  font-size: 60px;
-  text-align: center;
+/*--media query-*/
+@media only screen and (max-width: 600px) {
+  footer section .footer-grid-container {
+  grid-template-columns: repeat(1, 1fr);
 }
- .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-  background-color: rgba(0, 0, 0, 0.062);
-  color: inherit;
-  border: 1px solid rgba(0, 0, 0, 0.062);
-  border-radius: 5px;
-  padding: 0 25px !important;
-  margin-top: 20px;
-  margin-right: 10px;
-  font: inherit;
- }
-
-  .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
-    background-color: rgba(0, 0, 0, 0.062);
-    color: inherit;
-    border: 1px solid rgba(0, 0, 0, 0.062);
-    border-radius: 5px;
-    padding: 0 25px !important;
-    margin-top: 20px;
-    margin-left: 10px;
-    font: inherit;
-  }
+footer section {
+    height: auto;
+}
+footer section {
+  padding: 0;
+}
+footer section .footer-grid-container .s1 ul {
+    padding: 0;
+}
+nav .top-header-inner {
+    flex-direction: column;
+}
+}
